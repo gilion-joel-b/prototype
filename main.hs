@@ -1,5 +1,5 @@
-parse :: String -> [Int]
-parse str = []
+parse :: String -> (String, String)
+parse str = (str, "parsed")
 
 main :: IO ()
 main = do
