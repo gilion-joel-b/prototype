@@ -1,3 +1,5 @@
+import Parsing
+
 parse :: String -> (String, String)
 parse str = (str, "parsed")
 
